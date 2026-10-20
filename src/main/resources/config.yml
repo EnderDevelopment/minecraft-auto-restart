@@ -1,0 +1,3 @@
+# Configuration for ServerRestartPlugin
+# restart-interval: The interval in milliseconds between server restarts
+restart-interval: 18000000 # 5 hours in milliseconds

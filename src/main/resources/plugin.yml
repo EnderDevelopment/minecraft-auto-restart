@@ -1,0 +1,15 @@
+name: ServerRestartPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin to restart the server at a configurable interval.
+api-version: "1.21"
+commands:
+  restart:
+    description: Restart the server immediately.
+    usage: /restart
+    permission: serverrestart.restart
+permissions:
+  serverrestart.restart:
+    description: Allows the player to restart the server immediately.
+    default: op
